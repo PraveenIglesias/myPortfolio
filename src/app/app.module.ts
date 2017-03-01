@@ -5,6 +5,8 @@ import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 // import { routing } from './app.routing';
+import { IntroComponent } from './intro/intro.component';
+import { SkillsComponent } from './skills/skills.component';
 
 import { removeNgStyles, createNewHosts } from '@angularclass/hmr';
 
@@ -15,7 +17,9 @@ import { removeNgStyles, createNewHosts } from '@angularclass/hmr';
     FormsModule
   ],
   declarations: [
-    AppComponent
+    AppComponent,
+    IntroComponent,
+    SkillsComponent
   ],
   providers: [
   ],
